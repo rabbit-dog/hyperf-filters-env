@@ -1,0 +1,32 @@
+    {  
+      "name": "zqy234/terrytest",  
+      "description": "hyperf-filter",  
+      "keywords": [  
+        "hyperf",  
+        "terrytest"  
+      ],  
+      "homepage": "https://github.com/zqy234/terrytest",  
+      "type": "hyperf-extension",  
+      "license": "MIT",  
+      "support": {  
+        "source": "https://github.com/zqy234/terrytest"  
+      },  
+      "authors": [  
+        {  
+          "name": "terry water",  
+          "email": "zqy234@126.com"  
+        }  
+      ],  
+      "minimum-stability": "stable",  
+      "require": {  
+        "php": ">=7.0.0",          
+      },  
+      "autoload": {  
+        "psr-4": {  
+          "terry\\": ""  
+        }  
+      },  
+      "config": {  
+        "process-timeout": 1800  
+      }  
+    }  
