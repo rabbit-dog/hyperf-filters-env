@@ -1,32 +1,50 @@
-    {  
-      "name": "zqy234/terrytest",  
-      "description": "hyperf-filter",  
-      "keywords": [  
-        "hyperf",  
-        "terrytest"  
-      ],  
-      "homepage": "https://github.com/zqy234/terrytest",  
-      "type": "hyperf-extension",  
-      "license": "MIT",  
-      "support": {  
-        "source": "https://github.com/zqy234/terrytest"  
-      },  
-      "authors": [  
-        {  
-          "name": "terry water",  
-          "email": "zqy234@126.com"  
-        }  
-      ],  
-      "minimum-stability": "stable",  
-      "require": {  
-        "php": ">=7.0.0",          
-      },  
-      "autoload": {  
-        "psr-4": {  
-          "terry\\": ""  
-        }  
-      },  
-      "config": {  
-        "process-timeout": 1800  
-      }  
-    }  
+{
+    "name": "effie-tp/filter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "effie-tp,
+        "email": "zhangeffie@163.com"
+      }
+    ],
+    "keywords": [
+        "php",
+        "hyperf",
+        "filter"
+    ],
+    "description": "model filter for hyperf",
+    "autoload": {
+        "psr-4": {
+            "ModelFilter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "ext-swoole": ">=4.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "phpstan/phpstan": "^0.10.5",
+        "hyperf/testing": "1.1.*",
+        "swoft/swoole-ide-helper": "dev-master"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "co-phpunit -c phpunit.xml --colors=always",
+        "analyse": "phpstan analyse --memory-limit 300M -l 0 ./src",
+        "cs-fix": "php-cs-fixer fix $1"
+    },
+    "extra": {
+        "hyperf": {
+            "config": "ModelFilter\\ConfigProvider"
+        }
+    }
+}
