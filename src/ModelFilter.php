@@ -1,12 +1,5 @@
 <?php
-/**
- *
- * User: xiaowei<13177839316@163.com>
- * Date: 2020/4/24
- * Time: 10:43
- */
-
-namespace Xiaowei\ModelFilter;
+namespace Rabbit\ModelFilter;
 
 use Hyperf\Database\Model\Builder;
 
