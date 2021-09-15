@@ -2,8 +2,7 @@
     "name": "rabbit-dog/filter",
     "description": "An Eloquent way to filter Eloquent Models",
     "require": {
-        "php": ">=5.3",
-        "rabbit-dog/filter": "1.0.0"
+        "php": ">=5.3"
     },
     "license": "MIT",
     "authors": [
