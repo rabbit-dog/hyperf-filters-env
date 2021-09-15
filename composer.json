@@ -1,54 +1,16 @@
 {
     "name": "rabbit-dog/filter",
     "description": "An Eloquent way to filter Eloquent Models",
-    "type": "library",
+    "require": {
+        "php": ">=5.3",
+        "rabbit-dog/filter": "1.0.0"
+    },
     "license": "MIT",
     "authors": [
-      {
-        "name": "rabbit-dog",
-        "email": "zhangeffie@163.com"
-      }
+        {
+            "name": "rabbit-dog",
+            "email": "zhangeffie@163.com"
+        }
     ],
-    "keywords": [
-        "hyperf",
-        "eloquent",
-        "model",
-        "search",
-        "query",
-        "filter"
-    ],
-    "description": "model filter for hyperf",
-    "autoload": {
-        "psr-4": {
-            "ModelFilter\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ModelFilter\\TestClass\\": "tests/classes"
-        }
-    },
-    "require": {
-        "php": ">=7.2",
-        "hyperf/framework": "~2.0.0"
-    },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.14",
-        "phpstan/phpstan": "^0.10.5",
-        "hyperf/testing": "1.1.*",
-        "swoft/swoole-ide-helper": "dev-master"
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "scripts": {
-        "test": "co-phpunit -c phpunit.xml --colors=always",
-        "analyse": "phpstan analyse --memory-limit 300M -l 0 ./src",
-        "cs-fix": "php-cs-fixer fix $1"
-    },
-    "extra": {
-        "hyperf": {
-            "config": "ModelFilter\\ConfigProvider"
-        }
-    }
+    "minimum-stability": "dev"
 }
