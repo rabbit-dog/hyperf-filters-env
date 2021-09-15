@@ -1,5 +1,6 @@
 {
     "name": "rabbit-dog/filter",
+    "description": "An Eloquent way to filter Eloquent Models",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,8 +10,11 @@
       }
     ],
     "keywords": [
-        "php",
         "hyperf",
+        "eloquent",
+        "model",
+        "search",
+        "query",
         "filter"
     ],
     "description": "model filter for hyperf",
@@ -21,12 +25,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "HyperfTest\\": "tests"
+            "ModelFilter\\TestClass\\": "tests/classes"
         }
     },
     "require": {
         "php": ">=7.2",
-        "hyperf": ">=2.0.0",
+        "hyperf/framework": "~2.0.0",
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
@@ -35,7 +39,7 @@
         "swoft/swoole-ide-helper": "dev-master"
     },
     "config": {
-        "sort-packages": true
+        "preferred-install": "dist"
     },
     "scripts": {
         "test": "co-phpunit -c phpunit.xml --colors=always",
