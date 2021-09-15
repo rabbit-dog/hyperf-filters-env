@@ -3,7 +3,7 @@
 namespace Filter\TestClass;
 
 use Hyperf\Database\Model\Model;
-use Rabbit\Filter\Filterable;
+use Rabbit\HyperfFiltersEnv\Filterable;
 
 class Client extends Model
 {
