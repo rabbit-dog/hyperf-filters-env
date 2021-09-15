@@ -8,8 +8,8 @@
 
 ```
  安装最新版
- 
- composer require rabbit-dog/fiter 
+
+ composer require rabbit-dog/filter -vvv
 
  创建目录
  app/ModelFilters
