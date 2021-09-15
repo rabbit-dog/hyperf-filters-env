@@ -9,7 +9,7 @@
 ```
  安装最新版
 
- composer require rabbit-dog/filter -vvv
+ composer require rabbit-dog/hyperf-filter-env -vvv
 
  创建目录
  app/ModelFilters
