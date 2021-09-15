@@ -42,6 +42,8 @@ class ActiveFilter extends ModelFilter
 ## 注意
 
 1. 参数需要为下划线分割的名称 如 product_id 那么ModelFilter中对应的方法就为productId
+2. 有问题随时提问，目前只能实现搜索
 
-有问题随时提问，目前只能实现搜索
+issues请留言
+
 
