@@ -1,15 +1,20 @@
 {
     "name": "rabbit-dog/filter",
     "description": "An Eloquent way to filter Eloquent Models",
+    "license": "MIT",
     "require": {
         "php": ">=5.3"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "rabbit-dog",
             "email": "zhangeffie@163.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+     "autoload": {
+        "psr-4": {
+            "Rabbit\\Filter\\": "src/"
+        }
+    } 
 }
