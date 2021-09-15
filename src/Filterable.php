@@ -1,6 +1,6 @@
 <?php
 
-namespace Rabbit\HyperfFiltersEnv ;
+namespace Rabbit\Filter ;
 
 use Hyperf\Database\Model\Builder;
 
