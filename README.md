@@ -16,7 +16,7 @@
  
  在模型中使用trait
  
- use use Rabbit\Filter\Filterable;
+ use Rabbit\Filter\Filterable;
  class User extends Model
  {
     use Filterable;
@@ -43,4 +43,5 @@ class ActiveFilter extends ModelFilter
 
 1. 参数需要为下划线分割的名称 如 product_id 那么ModelFilter中对应的方法就为productId
 
+有问题随时提问，目前只能实现搜索
 
