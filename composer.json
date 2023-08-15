@@ -2,7 +2,7 @@
     "name": "rabbit-dog/hyperf-filters-env",
     "description": "An Eloquent way to filter Eloquent Models",
     "license": "MIT",
-    "keywords": ["hyperf"]
+    "keywords": ["hyperf"],
     "require": {
         "php": ">=5.3"
     },
